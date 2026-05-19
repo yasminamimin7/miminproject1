@@ -16,5 +16,4 @@ a soft return is used for the next line.
 Two (or more) newline characters in a row will result in a hard return.
 '''
 st.markdown(multi)
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/).")
