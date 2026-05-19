@@ -1,7 +1,6 @@
 import streamlit as st
 
 st.title("🎈 mimin project 1")
-st.write(import streamlit as st
 
 st.markdown("*Streamlit* is **really** ***cool***.")
 st.markdown('''
