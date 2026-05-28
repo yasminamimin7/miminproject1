@@ -1,4 +1,3 @@
-import streamlit as st
 
 st.title("🎈 mimin project 1")
 st.header("Bagaimana pengalamanmu menggunakan website ini?")
