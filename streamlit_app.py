@@ -1,4 +1,4 @@
-
+import streamlit as st
 st.title("🎈 mimin project 1")
 st.header("Bagaimana pengalamanmu menggunakan website ini?")
 import streamlit as st
@@ -31,7 +31,7 @@ a soft return is used for the next line.
 Two (or more) newline characters in a row will result in a hard return.
 '''
 st.markdown(multi)
- import streamlit as st
+
 import pandas as pd
 import plotly.graph_objects as go
 from datetime import datetime
