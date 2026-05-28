@@ -33,7 +33,7 @@ Two (or more) newline characters in a row will result in a hard return.
 st.markdown(multi)
 
 import pandas as pd
-import plotly.graph_objects as go
+
 from datetime import datetime
 
 # ==================== CONFIG ====================
