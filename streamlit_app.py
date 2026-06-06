@@ -42,7 +42,5 @@ import streamlit as st
 
 st.snow()
 
-import streamlit as st
 
-st.loves()
 
