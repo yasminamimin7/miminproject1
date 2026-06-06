@@ -42,5 +42,54 @@ import streamlit as st
 
 st.snow()
 
+import streamlit as st
+import random
 
+st.set_page_config(page_title="Mystery Box Challenge", page_icon="🎁")
+
+st.title("🎁 Mystery Box Challenge")
+st.write("Pilih kotak misteri dan kumpulkan skor sebanyak mungkin!")
+
+if "score" not in st.session_state:
+    st.session_state.score = 0
+
+hadiah = [
+    ("💰 Kamu menemukan 10 koin!", 10),
+    ("⭐ Bonus 20 poin!", 20),
+    ("💎 Harta karun! +50 poin", 50),
+    ("😱 Kehilangan 15 poin!", -15),
+    ("💣 Jebakan! -30 poin", -30),
+]
+
+st.metric("Skor Saat Ini", st.session_state.score)
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    if st.button("🎁 Kotak 1"):
+        pesan, poin = random.choice(hadiah)
+        st.session_state.score += poin
+        st.success(pesan)
+
+with col2:
+    if st.button("🎁 Kotak 2"):
+        pesan, poin = random.choice(hadiah)
+        st.session_state.score += poin
+        st.success(pesan)
+
+with col3:
+    if st.button("🎁 Kotak 3"):
+        pesan, poin = random.choice(hadiah)
+        st.session_state.score += poin
+        st.success(pesan)
+
+st.divider()
+
+if st.button("🔄 Reset Game"):
+    st.session_state.score = 0
+    st.rerun()
+
+if st.session_state.score >= 200:
+    st.balloons()
+    st.success("🏆 Selamat! Kamu berhasil mencapai 200 poin!")
 
