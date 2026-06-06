@@ -38,6 +38,11 @@ from datetime import datetime
 import streamlit as st
 
 st.balloons()
+import streamlit as st
 
+st.snow()
 
+import streamlit as st
+
+st.loves()
 
