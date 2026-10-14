@@ -2,7 +2,6 @@
 <html lang="id"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>GBC Avanta AAS 3D</title>
-<style>
 :root{--bg:#eef1f4;--ink:#1c2630;--card:#fff;--line:#c9d1d9;--acc:#1b6ca8;--hot:#e8662a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10171d;--ink:#e6edf3;--card:#1a232c;--line:#33414d;--acc:#5aa9e6}}
 :root[data-theme="dark"]{--bg:#10171d;--ink:#e6edf3;--card:#1a232c;--line:#33414d;--acc:#5aa9e6}
